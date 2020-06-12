@@ -8182,7 +8182,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 40px;
   padding-left: 2em;
   padding-right: 2em;
@@ -8218,7 +8218,7 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     font-weight: normal;
-    font-size: 74px;
+    font-size: 60px;
     line-height: .8;
     font-family: "Abril Fatface", cursive; }
     @media (max-width: 1199.98px) {
@@ -8228,7 +8228,7 @@ h1, h2, h3, h4, h5,
       display: block; }
     @media (max-width: 991.98px) {
       #colorlib-aside #colorlib-logo {
-        margin-bottom: 20px; } }
+        margin-bottom: 0px; } }
     #colorlib-aside #colorlib-logo a {
       display: inline-block;
       text-align: left;
@@ -8921,7 +8921,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+ webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
